@@ -18,6 +18,9 @@ IM.figure()
 
 IMc = IM.crop("Center","Manual");
 
+
+imwrite(IM(1).OPD,"OPD.tif")
+
 %% process images
 
 
